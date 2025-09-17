@@ -6,9 +6,9 @@ let Nota2 = parseFloat(prompt("informe a segunda nota: "))
 
 // calculo porcentual
 
-let porcentualPresencaAluno = ((TotalFaltas/TotalAulasSemestre)*100).toFixed(2);
+let PorcentualPresencaAluno = ((TotalFaltas/TotalAulasSemestre)*100).toFixed(2);
 
-if (porcentualPresencaAluno > 25) {
+if (PorcentualPresencaAluno > 25) {
     console.log("o aluno foi reprovado por falta");
 }else {
     console.log("aprovado por faltas");
@@ -31,6 +31,6 @@ if (MediaPeriodo >= 7){
 }
 console.log(TotalAulasSemestre)
 console.log(TotalFaltas)
-console.log(porcentualPresencaAluno)
+console.log(PorcentualPresencaAluno)
 console.log(MediaPeriodo)
 console.log(MediaPeriodo2)
